@@ -57,9 +57,6 @@ module.exports = ({ content }) => {
             </div>
           </nav>
         </header>
-
-        
-
         ${content}
       </body>
     </html>
