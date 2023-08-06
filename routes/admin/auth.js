@@ -12,6 +12,8 @@ const {
   requireValidPasswordForUser
 } = require('./validators');
 
+
+
 const router = express.Router();
 
 router.get('/signup', (req, res) => {
