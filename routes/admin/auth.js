@@ -18,8 +18,6 @@ router.get('/signup', (req, res) => {
   res.send(signupTemplate({ req }));
 });
 
-
-
 router.post(
   '/signup',
   [requireEmail, requirePassword, requirePasswordConfirmation],
