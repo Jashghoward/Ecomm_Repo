@@ -14,6 +14,7 @@ const {
 
 const router = express.Router();
 
+
 router.get('/signup', (req, res) => {
   res.send(signupTemplate({ req }));
 });
