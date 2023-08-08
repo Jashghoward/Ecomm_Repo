@@ -15,8 +15,6 @@ module.exports = class Repository {
     }
   }
 
-  
-
   async create(attrs) {
     attrs.id = this.randomId();
 
