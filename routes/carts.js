@@ -3,15 +3,15 @@ const cartsRepo = require('../repositories/carts');
 
 const router = express.Router();
 
-// Recieve a POST request to add an item to a cart
+
 router.post('/cart/products', async  (req, res) => {
   console.log(req.body.productId);
-  // Figure out the cart!
+
   let cart;
   if (!req.session.cartId) {
-    // We dont have a cart, we need to create one,
-    // and store the cart id on the req.session.cartId 
-    // property
+
+
+
     cart = await cartsRepo.create({ items: [] });
     req.session.cartId = cart.id;
   } else {
