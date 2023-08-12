@@ -67,6 +67,8 @@ module.exports = class Repository {
     await this.writeAll(records);
   }
 
+  
+
   async getOneBy(filters) {
     const records = await this.getAll();
 
