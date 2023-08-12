@@ -14,6 +14,8 @@ module.exports = {
         return res.send(templateFunc({ errors, ...data }));
       }
 
+      
+
       next();
     };
   },
