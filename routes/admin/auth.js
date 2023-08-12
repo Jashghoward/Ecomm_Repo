@@ -41,6 +41,8 @@ router.get('/signin', (req, res) => {
   res.send(signinTemplate({}));
 });
 
+
+
 router.post(
   '/signin',
   [requireEmailExists, requireValidPasswordForUser],
