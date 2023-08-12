@@ -27,6 +27,8 @@ module.exports = ({ products }) => {
     })
     .join('\n');
 
+
+    
   return layout({
     content: `
       <section class="banner">
