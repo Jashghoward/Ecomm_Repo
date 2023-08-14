@@ -25,6 +25,3 @@ router.post('/cart/products', async  (req, res) => {
 });
 
 module.exports = router;
-
-
-
