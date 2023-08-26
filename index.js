@@ -15,6 +15,9 @@ app.use(
   })
 );
 
+
+
+
 app.use(authRouter);
 app.use(productsRouter);
 app.use(adminProductsRouter);
