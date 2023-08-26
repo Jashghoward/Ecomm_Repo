@@ -24,4 +24,6 @@ router.post('/cart/products', async  (req, res) => {
   res.send('Product added to cart');
 });
 
+
+
 module.exports = router;
