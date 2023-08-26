@@ -19,8 +19,6 @@ router.post('/cart/products', async  (req, res) => {
     cart = await cartsRepo.getOne(req.session.cartId);
   }
 
-  
-
   console.log (cart);
 
   res.send('Product added to cart');
