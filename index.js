@@ -18,6 +18,8 @@ app.use(authRouter);
 app.use(productsRouter);
 app.use(adminProductsRouter);
 
+
+
 app.listen(3000, () => {
   console.log('Listening');
 });
